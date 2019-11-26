@@ -100,10 +100,9 @@ Or install it yourself as:
 
 ## Running specs
 
-The specs for handcuffs are in the dummy application at `/spec/dummy/spec`. The
-spec suite requires PostgreSQL. To run it you will have to set the environment
-variables `POSTGRES_DB_USERNAME` and `POSTGRES_DB_PASSWORD`. You can then run
-the suite using `rake spec`
+The specs for handcuffs are in the dummy application at `/spec/dummy/spec`.
+Run `rake db:create` to create the test Sqlite database before you run the specs
+for the first time. You can then run the specs using `rake spec`.
 
 ## Contributing
 
